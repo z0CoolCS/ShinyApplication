@@ -1,0 +1,23 @@
+---
+title: "Shiny App about Swiss Fertility and Socioeconomic Indicators (1888) Data"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: ioslides_presentation
+---
+
+
+## Functionality 1
+As user, I can select a square area and get the slope and intercept component based on the liner regression between the selected points.  
+<img src="img/select.png" alt="drawing" width="600" style="align:center"/>
+
+## Functionality 2
+As user, I can ommit the intercept component with unchosing the WithIntercept choice in the side bar panel on the left.  
+<img src="img/withoutintercept.png" alt="drawing" width="600" style="align:center"/>
+
+## Functionality 3
+As user, I can get more information selecting Fertility and Catholic options, after selecting any of these variables, the plot will coloring the points depending of theses variables so we can get how they are classified.  
+<img src="img/class.png" alt="drawing" width="600" style="align:center"/>
+
+## Functionality 4
+As user, I can variety the number of bins in order to see how disperse the data are.  
+<img src="img/hist.png" alt="drawing" width="600" style="align:center"/>
+
